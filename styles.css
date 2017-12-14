@@ -1,0 +1,58 @@
+* { /* Update selector, look up border-box browser prefixes */
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.sidebar {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	top: 10px;
+	position: fixed;
+}
+.nav-box {
+	padding: 0;
+	margin: 0;
+}
+
+.nav-item {
+	list-style-type: none;
+	display: block;
+	margin: 5px 0;
+	padding: 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.content {
+	width: calc(100% - 340px);
+	float: right;
+}
+
+.resume-article {
+	border-bottom: 5px solid #000;
+}
+
+.resume-subsection {
+	border-bottom: 2px dashed #000;
+}
+
+.resume-subsection:last-of-type {
+	border-bottom: 0;
+}
+
+.footer {
+	float: bottom;
+	position: fixed;
+	bottom: 0;
+	left: 5px;
+}
